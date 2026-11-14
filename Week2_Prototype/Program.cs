@@ -23,3 +23,4 @@ Console.WriteLine("\nUpdating Snow's age...");
 Console.WriteLine("Update: " + cat2.UpdateAge(2));
 Console.WriteLine("New Age: " + cat2.Age);
 
+Console.WriteLine("\n=== End of CatCare 360 Test ===");
