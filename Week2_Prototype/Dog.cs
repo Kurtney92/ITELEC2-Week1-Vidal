@@ -1,15 +1,15 @@
 
-class Cat
+class Dog
 {
-    public int CatId { get; }
-    public string CatName { get; }
+    public int DogId { get; }
+    public string DogName { get; }
     public int Age { get; private set; }
     public string Status { get; private set; }
 
-    public Cat(int catId, string catName, int age, string status)
+    public Dog(int dogId, string dogName, int age, string status)
     {
-        CatId = catId;
-        CatName = catName;
+        DogId = dogId;
+        DogName = dogName;
         Age = age;
         Status = status;
     }
